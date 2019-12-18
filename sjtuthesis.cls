@@ -1,4 +1,4 @@
-%%
+%%  2019 12.18 modified for a HFUT doctorial paper 
 %% This is file `sjtuthesis.cls',
 %% generated with the docstrip utility.
 %%
