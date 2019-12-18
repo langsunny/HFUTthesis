@@ -144,8 +144,8 @@
   \expandafter\gdef\csname sjtu@label@#1\endcsname{#2}
   \define@key{sjtulabel}{#1}{%
     \expandafter\gdef\csname sjtu@label@#1\endcsname{##1}}}
-\sjtu@def@label{schoolChi}{上海交通大学}
-\sjtu@def@label{schoolEng}{Shanghai Jiao Tong University}
+\sjtu@def@label{schoolChi}{合肥工业大学}
+\sjtu@def@label{schoolEng}{Hefei University of Technology}
 \sjtu@def@label{originalityChi}{原创性声明}
 \sjtu@def@label{originalityEng}{Declaration of Originality}
 \sjtu@def@label{authorizationChi}{版权使用授权书}

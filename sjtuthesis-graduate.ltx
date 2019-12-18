@@ -61,10 +61,10 @@
 }
 \geometry{%
   paper      = a4paper,
-  top        = 3.5cm,
-  bottom     = 4.0cm,
-  left       = 3.3cm,
-  right      = 2.8cm,
+  top        = 2.54cm,
+  bottom     = 2.54cm,
+  left       = 3.0cm,
+  right      = 3.0cm,
   headheight = 1.0cm,
   headsep    = 0.5cm,
 }
@@ -89,13 +89,16 @@
 }
 \fancypagestyle{sjtu@plain}{%
   \fancyhf{}
-  \fancyhead[C]{\zihao{-5}\sjtu@label@subjectChi}
+  \fancyhead[CO]{\zihao{-5}\sjtu@label@subjectChi}%增加论文页眉左右格式
+  \fancyhead[CE]{\zihao{-5}\leftmark}%增加论文页眉左右格式
+%%  \fancyhead[CE]{\zihao{-5}\sjtu@fancyhead@\leftmark}%增加论文页眉左右格式
   \fancyfoot[C]{\small ---~{\bfseries\thepage}~---}
   \renewcommand{\headrule}{%
-    \hrule\@height2.25\p@\@width\headwidth
-    \vskip 0.75\p@
     \hrule\@height0.75\p@\@width\headwidth
-    \vskip -2.75\p@
+    \vskip 0.75\p@
+%%    \hrule\@height0.75\p@\@width\headwidth
+  %%  \hrule\@height2.25\p@\@width\headwidth
+ %%   \vskip -2.75\p@
   }
 }
 \renewcommand{\frontmatter}{%
