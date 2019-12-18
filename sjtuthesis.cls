@@ -388,14 +388,14 @@
   justification = justified,
   font          = sjtusubcaptionfont
 }
-\DeclareCaptionOption{bi.first}[]{%
+\DeclareCaptionOption{bi-first}[]{%
   \def\tablename{\sjtu@label@table}
   \def\figurename{\sjtu@label@figure}}
-\DeclareCaptionOption{bi.second}[]{%
+\DeclareCaptionOption{bi-second}[]{%
   \def\tablename{Table}
   \def\figurename{Figure}}
-\captionsetup[bi.first]{bi.first}
-\captionsetup[bi.second]{bi.second}
+\captionsetup[bi-first]{bi-first}
+\captionsetup[bi-second]{bi-second}
 \ifsjtu@mathstyle@GB
   \let\mathellipsis\cdots
   \AtBeginDocument{%
