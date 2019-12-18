@@ -1,4 +1,4 @@
-%%  2019 12.18 modified for a HFUT doctorial paper 
+%%  2019 12.18 modified for a HFUT doctorial paper，正文暂时采用sju格式
 %% This is file `sjtuthesis.cls',
 %% generated with the docstrip utility.
 %%
@@ -290,12 +290,12 @@
     afterskip    = 2ex
   },
   section={%
-    format       = \zihao{-4}\bfseries\heiti,
+    format       = \zihao{4}\bfseries\heiti,
     afterindent  = true,
     afterskip    = 1ex \@plus .2ex
   },
   subsection={%
-    format       = \zihao{-4}\normalfont,
+    format       = \zihao{-4}\bfseries\heiti,
     afterindent  = true,
     afterskip    = 1ex \@plus .2ex
   },
