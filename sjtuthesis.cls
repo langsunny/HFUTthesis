@@ -281,7 +281,7 @@
   \pagestyle{empty}}
 \ctexset{%
   chapter={%
-    format       = \zihao{3}\bfseries\heiti\bold\centering,
+    format       = \zihao{3}\bfseries\heiti\centering,
     nameformat   = {},
     titleformat  = {},
     aftername    = \quad,
@@ -300,7 +300,7 @@
     afterskip    = 1ex \@plus .2ex
   },
   subsubsection={%
-    format       = \zihao{-4}\normalfont\bold,
+    format       = \zihao{-4}\normalfont,
     afterindent  = true,
     afterskip    = 1ex \@plus .2ex
   },
