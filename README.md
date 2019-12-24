@@ -1,4 +1,4 @@
-# SJTUThesis 示例模板
+# HFUTthesis 示例模板
 
 [![Build Status](https://travis-ci.org/sjtug/SJTUThesis.svg?branch=master)](https://travis-ci.org/sjtug/SJTUThesis)
 [![SJTUTeX](https://img.shields.io/badge/SJTUTheis-v1.0.0rc4-green.svg)](https://github.com/sjtug/SJTUTeX) 
